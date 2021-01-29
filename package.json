@@ -1,0 +1,21 @@
+{
+  "name": "share",
+  "version": "1.0.0",
+  "description": "you can start with cloning this repo and doing \r ```\r npm i \r ```\r to install all the dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/multer": "^1.4.5",
+    "@types/node": "^14.14.22"
+  }
+}
