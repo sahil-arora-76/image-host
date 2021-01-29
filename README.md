@@ -12,7 +12,7 @@ do
 in dist folder and then go to port 3000 on your localhost
 
 
-for uploading images  do to\ 
+for uploading images  go to 
 /image/upload 
 
 you can upload gif, png, jpg, jpeg
