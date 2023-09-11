@@ -25,6 +25,6 @@ app.use(multer({storage: storage, fileFilter: fileFilter}).single('image'));
 app.use('/image', uploadRoute);
 app.use('/', homeRoute);
 
-app.listen(3000 , () => { 
+app.listen(4000 , () => { 
     process.stdout.write('App Listening to 3000 port\n');
 });

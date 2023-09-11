@@ -31,6 +31,6 @@ app.use('/images', express_1.default.static(path_1.default.join(__dirname, '..',
 app.use(multer_1.default({ storage: storage, fileFilter: fileFilter }).single('image'));
 app.use('/image', upload_1.default);
 app.use('/', home_1.default);
-app.listen(3000, () => {
-    process.stdout.write('App Listening to 3000 port\n');
+app.listen(4000, () => {
+    process.stdout.write('App Listening to 4000 port\n');
 });
